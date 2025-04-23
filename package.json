@@ -1,0 +1,42 @@
+{
+  "name": "smart-memo-app",
+  "version": "1.0.0",
+  "description": "高度な機能を備えたメモアプリケーション",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "memo",
+    "notes",
+    "productivity"
+  ],
+  "author": "DevIt",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "styled-components": "^6.1.8",
+    "date-fns": "^2.30.0",
+    "marked": "^9.1.6",
+    "react-icons": "^4.12.0",
+    "localforage": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "jest": "^29.7.0"
+  }
+}
